@@ -1,0 +1,12 @@
+# Never commit a session. These patterns are a backstop; the session lives in ~/.beat-drop by default.
+auth.json
+auth.json.bak
+*.json.bak
+.ytmusic_auth*
+browser.json
+headers_auth.json
+oauth.json
+.beat-drop/
+.env
+__pycache__/
+*.pyc
